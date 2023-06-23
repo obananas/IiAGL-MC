@@ -5,6 +5,7 @@ function [U, label, F, w, alpha, Z, E, best, object, y_acc, y_nmi] = IiAGL_MC_ma
 rho = 1.1;
 delta = 1e-3;
 omiga = 1e-4;
+maxIter = 1;
 % % initialize Z{i}, P{i}, w, alpha
 Z = Z_init;
 P = Z;
